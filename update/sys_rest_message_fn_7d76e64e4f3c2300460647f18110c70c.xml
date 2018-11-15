@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn">
+    <sys_rest_message_fn action="INSERT_OR_UPDATE">
+        <authentication_type>inherit_from_parent</authentication_type>
+        <basic_auth_password/>
+        <basic_auth_profile/>
+        <basic_auth_user/>
+        <content/>
+        <function_name>Crises Green GET</function_name>
+        <http_method>get</http_method>
+        <lock>false</lock>
+        <oauth2_profile/>
+        <protocol_name/>
+        <qualified_name>Sigimera [ Crises Green GET ]</qualified_name>
+        <rest_endpoint>https://api.sigimera.org/v1/crises??auth_token=PRB-SjRrKG2YL79ZBTf2&amp;level=green</rest_endpoint>
+        <rest_message display_value="Sigimera">8f85ae0e4f3c2300460647f18110c738</rest_message>
+        <sys_class_name>sys_rest_message_fn</sys_class_name>
+        <sys_created_by>admin2</sys_created_by>
+        <sys_created_on>2018-09-28 18:38:23</sys_created_on>
+        <sys_id>7d76e64e4f3c2300460647f18110c70c</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Crises Green GET</sys_name>
+        <sys_package display_value="Business Continuity" source="x_260782_bc">3f01e2374f602300460647f18110c7bf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Business Continuity">3f01e2374f602300460647f18110c7bf</sys_scope>
+        <sys_update_name>sys_rest_message_fn_7d76e64e4f3c2300460647f18110c70c</sys_update_name>
+        <sys_updated_by>admin2</sys_updated_by>
+        <sys_updated_on>2018-10-01 16:49:42</sys_updated_on>
+        <use_basic_auth>false</use_basic_auth>
+        <use_mid_server/>
+        <use_mutual_auth>false</use_mutual_auth>
+    </sys_rest_message_fn>
+</record_update>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_vlist">
+    <sp_instance_vlist action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <display_field>number</display_field>
+        <field_list/>
+        <filter table="task">parent.numberSTARTSWITHEME^sys_class_name=task<item endquery="false" field="parent.number" goto="false" newquery="false" operator="STARTSWITH" or="false" value="EME"/>
+            <item endquery="false" field="sys_class_name" goto="false" newquery="false" operator="=" or="false" value="task"/>
+        </filter>
+        <glyph/>
+        <id/>
+        <maximum_entries>5</maximum_entries>
+        <order>1</order>
+        <order_by/>
+        <order_direction>asc</order_direction>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="2">3368cacd4f2d2300460647f18110c78a</sp_column>
+        <sp_page display_value="form">ed5f8ec347730200ba13a5554ee49046</sp_page>
+        <sp_widget display_value="Simple List">5b255672cb03020000f8d856634c9c28</sp_widget>
+        <sys_class_name>sp_instance_vlist</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-11-08 18:54:12</sys_created_on>
+        <sys_id>5943bd1b4f25a300460647f18110c71e</sys_id>
+        <sys_mod_count>16</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Business Continuity" source="x_260782_bc">3f01e2374f602300460647f18110c7bf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Business Continuity">3f01e2374f602300460647f18110c7bf</sys_scope>
+        <sys_update_name>sp_instance_vlist_5943bd1b4f25a300460647f18110c71e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-11-08 21:10:29</sys_updated_on>
+        <table>task</table>
+        <title/>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"always_show": {
+		"value": "true",
+		"displayValue": "true"
+	},
+	"panel_body_height": {
+		"value": "",
+		"displayValue": ""
+	},
+	"image_field": {
+		"value": "",
+		"displayValue": ""
+	},
+	"secondary_fields": {
+		"value": "short_description,description,sys_created_on,state",
+		"displayValue": "short_description,description,sys_created_on,state"
+	},
+	"rounded_images": {
+		"value": "",
+		"displayValue": ""
+	},
+	"list_page": {
+		"value": "b574e51147132100ba13a5554ee4903e",
+		"displayValue": "list"
+	},
+	"hide_footer": {
+		"value": "",
+		"displayValue": ""
+	},
+	"view": {
+		"value": "796322700a0a0b8c006fedf32a7d5052",
+		"displayValue": "Activity"
+	}
+}]]></widget_parameters>
+    </sp_instance_vlist>
+    <sys_translated_text action="delete_multiple" query="documentkey=5943bd1b4f25a300460647f18110c71e"/>
+</record_update>

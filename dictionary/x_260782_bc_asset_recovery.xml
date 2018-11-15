@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="incident" label="Asset Recovery" max_length="40" name="x_260782_bc_asset_recovery" type="collection"/>
+</database>

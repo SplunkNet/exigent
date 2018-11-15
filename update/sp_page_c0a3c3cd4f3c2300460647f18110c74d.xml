@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_page">
+    <sp_page action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <css>.body {
+  background: white url("bc_exit.jpg") no-repeat fixed top;
+  background-size: cover;
+}
+
+.header {  
+  left: 0;
+  top: 0;
+  margin: 0;
+  padding: 25;
+  position: absolute;
+  z-index: 2;
+}
+
+.header-container{
+  margin: 0;
+  padding: 0;
+  left:0;
+}
+
+.v200fbd96cb20020000f8d856634c9ca1 .sp-tagline-color {
+  color: #FFF;
+}
+
+.search-container{
+  margin-top: 75px;
+  margin-bottom: 75px;
+  background-color: rgba(0,0,0,0.3);
+}
+
+.search-column {
+}
+
+.iconpage h2 {
+  color: #FFF;
+  font-weight: 500;
+}
+
+.iconpage h2:hover {
+  color: #d8d8d8;
+}
+
+.icon-column {
+  background-color: #000;
+  margin: 5px;
+  height: 250px;
+}
+
+.text-muted {
+  color: #FFF;
+}
+
+.th-title {
+  color: #f71111;
+}</css>
+        <draft>false</draft>
+        <dynamic_title_structure/>
+        <id>bc_disaster</id>
+        <internal>false</internal>
+        <public>false</public>
+        <roles/>
+        <short_description>Disaster Recovery Home</short_description>
+        <sys_class_name>sp_page</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-09-25 18:12:37</sys_created_on>
+        <sys_id>c0a3c3cd4f3c2300460647f18110c74d</sys_id>
+        <sys_mod_count>72</sys_mod_count>
+        <sys_name>bc_disaster</sys_name>
+        <sys_package display_value="Business Continuity" source="x_260782_bc">3f01e2374f602300460647f18110c7bf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Business Continuity">3f01e2374f602300460647f18110c7bf</sys_scope>
+        <sys_update_name>sp_page_c0a3c3cd4f3c2300460647f18110c74d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-11-15 22:28:37</sys_updated_on>
+        <title>Disaster Recovery</title>
+    </sp_page>
+    <sys_translated_text action="delete_multiple" query="documentkey=c0a3c3cd4f3c2300460647f18110c74d"/>
+</record_update>

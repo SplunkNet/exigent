@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_view">
+    <sys_ui_view action="INSERT_OR_UPDATE">
+        <group/>
+        <hidden>false</hidden>
+        <name>catalog_emergencies</name>
+        <roles/>
+        <sys_class_name>sys_ui_view</sys_class_name>
+        <sys_created_by>admin2</sys_created_by>
+        <sys_created_on>2018-10-10 18:23:14</sys_created_on>
+        <sys_id>b016940a4f412300460647f18110c73a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Emergencies View</sys_name>
+        <sys_package display_value="Business Continuity" source="x_260782_bc">3f01e2374f602300460647f18110c7bf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Business Continuity">3f01e2374f602300460647f18110c7bf</sys_scope>
+        <sys_update_name>sys_ui_view_b016940a4f412300460647f18110c73a</sys_update_name>
+        <sys_updated_by>admin2</sys_updated_by>
+        <sys_updated_on>2018-10-10 18:23:14</sys_updated_on>
+        <title>Emergencies View</title>
+        <user/>
+    </sys_ui_view>
+</record_update>

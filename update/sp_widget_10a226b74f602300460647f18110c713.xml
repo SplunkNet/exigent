@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script/>
+        <controller_as/>
+        <css/>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>true</has_preview>
+        <id>weathernow</id>
+        <internal>false</internal>
+        <link/>
+        <name>WeatherNow</name>
+        <option_schema/>
+        <public>true</public>
+        <roles/>
+        <script/>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-09-21 18:35:18</sys_created_on>
+        <sys_id>10a226b74f602300460647f18110c713</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>WeatherNow</sys_name>
+        <sys_package display_value="Business Continuity" source="x_260782_bc">3f01e2374f602300460647f18110c7bf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Business Continuity">3f01e2374f602300460647f18110c7bf</sys_scope>
+        <sys_update_name>sp_widget_10a226b74f602300460647f18110c713</sys_update_name>
+        <sys_updated_by>admin2</sys_updated_by>
+        <sys_updated_on>2018-10-04 20:25:38</sys_updated_on>
+        <template><![CDATA[<a href="https://www.accuweather.com/en/us/broomfield-co/80020/weather-forecast/332216" class="aw-widget-legal">
+<!--
+By accessing and/or using this code snippet, you agree to AccuWeather’s terms and conditions (in English) which can be found at https://www.accuweather.com/en/free-weather-widgets/terms and AccuWeather’s Privacy Statement (in English) which can be found at https://www.accuweather.com/en/privacy.
+-->
+</a><div id="awcc1538684526671" class="aw-widget-current"  data-locationkey="" data-unit="f" data-language="en-us" data-useip="true" data-uid="awcc1538684526671"></div><script type="text/javascript" src="https://oap.accuweather.com/launch.js"></script>]]></template>
+    </sp_widget>
+</record_update>

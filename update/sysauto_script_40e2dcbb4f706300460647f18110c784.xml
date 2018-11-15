@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysauto_script">
+    <sysauto_script action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition/>
+        <conditional>false</conditional>
+        <name>Create New Red Emergency Ticket</name>
+        <run_as display_value="Noah Stumpf">2e26523f4f202300460647f18110c7b6</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek>1</run_dayofweek>
+        <run_period/>
+        <run_start>2018-10-01 18:29:00</run_start>
+        <run_time>1970-01-01 18:00:00</run_time>
+        <run_type>daily</run_type>
+        <script><![CDATA[//API Call
+var r = new sn_ws.RESTMessageV2('Sigimera', 'Crises Red GET');
+var response = r.execute();
+var responseBody = response.getBody();
+var obj = JSON.parse(responseBody);
+//For every disaster provided create a new ticket and add the properties
+for(var i=0;i<obj.length;i++){
+	var gr = new GlideRecord('x_260782_bc_emergencies');
+	gr.addQuery('u_ndid',obj[i]._id);
+	gr.query();
+		//Checks if disaster already exists
+	if (!checkDuplicate(obj[i]._id,gr)) {
+		//Creates new ticket's properties
+		gr.initialize();
+		gr.u_ndid = obj[i]._id;
+		gr.short_description = obj[i].dc_title;
+		gr.description = obj[i].dc_description;
+		gr.u_more_info = obj[i].rdfs_seeAlso;
+		for(var o=0;o<obj[i].gn_parentCountry.length;o++){
+		gr.u_country_location+=obj[i].gn_parentCountry[o]+" ";
+		}
+		if(obj[i].crisis_alertLevel=="Red")
+			{
+				gr.urgency=1;
+			}
+		gr.insert();
+	}
+}
+//If query says theres a duplicate return true
+function checkDuplicate(id,gr) {
+	if (gr.next()) {
+		return true;
+	}
+	return false;
+}]]></script>
+        <sys_class_name>sysauto_script</sys_class_name>
+        <sys_created_by>admin2</sys_created_by>
+        <sys_created_on>2018-10-03 18:22:55</sys_created_on>
+        <sys_id>40e2dcbb4f706300460647f18110c784</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>Create New Red Emergency Ticket</sys_name>
+        <sys_package display_value="Business Continuity" source="x_260782_bc">3f01e2374f602300460647f18110c7bf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Business Continuity">3f01e2374f602300460647f18110c7bf</sys_scope>
+        <sys_update_name>sysauto_script_40e2dcbb4f706300460647f18110c784</sys_update_name>
+        <sys_updated_by>admin2</sys_updated_by>
+        <sys_updated_on>2018-10-10 16:42:16</sys_updated_on>
+        <upgrade_safe>false</upgrade_safe>
+    </sysauto_script>
+</record_update>

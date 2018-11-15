@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-09-25 20:49:39</sys_created_on>
+        <sys_id>8bb7e3c14fbc2300460647f18110c750</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_260782_bc_emergencies.x_260782_bc.emergencies_user</sys_name>
+        <sys_package display_value="Business Continuity" source="x_260782_bc">3f01e2374f602300460647f18110c7bf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Business Continuity">3f01e2374f602300460647f18110c7bf</sys_scope>
+        <sys_security_acl display_value="x_260782_bc_emergencies">43b7e3c14fbc2300460647f18110c74e</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_8bb7e3c14fbc2300460647f18110c750</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-09-25 20:49:39</sys_updated_on>
+        <sys_user_role display_value="x_260782_bc.emergencies_user" name="x_260782_bc.emergencies_user">4fb767014fbc2300460647f18110c712</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+</record_update>

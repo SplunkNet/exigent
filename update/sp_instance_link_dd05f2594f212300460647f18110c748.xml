@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_link">
+    <sp_instance_link action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <class_name>iconpage</class_name>
+        <color>default</color>
+        <css/>
+        <glyph>user</glyph>
+        <id/>
+        <kb_article/>
+        <kb_category/>
+        <kb_topic/>
+        <order>1</order>
+        <roles/>
+        <sc_cat_item/>
+        <sc_category/>
+        <short_description>My Disasters Page</short_description>
+        <size>md</size>
+        <sp_column display_value="3">00c432594f212300460647f18110c71d</sp_column>
+        <sp_page display_value="disaster_recovery_user_page">e5bd65a74f41a300460647f18110c7cd</sp_page>
+        <sp_widget display_value="Icon Link">3caa67afcb13020000f8d856634c9c2e</sp_widget>
+        <sys_class_name>sp_instance_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-11-02 18:33:38</sys_created_on>
+        <sys_id>dd05f2594f212300460647f18110c748</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>My User Page</sys_name>
+        <sys_package display_value="Business Continuity" source="x_260782_bc">3f01e2374f602300460647f18110c7bf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Business Continuity">3f01e2374f602300460647f18110c7bf</sys_scope>
+        <sys_update_name>sp_instance_link_dd05f2594f212300460647f18110c748</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-11-02 18:36:06</sys_updated_on>
+        <title>My User Page</title>
+        <type>page</type>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"link_template": {
+		"value": "Top Icon",
+		"displayValue": "Top Icon"
+	}
+}]]></widget_parameters>
+    </sp_instance_link>
+    <sys_translated_text action="delete_multiple" query="documentkey=dd05f2594f212300460647f18110c748"/>
+</record_update>

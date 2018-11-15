@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_policy">
+    <sys_ui_policy action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <conditions table="x_260782_bc_affected_individuals">u_emergency.active=true^u_status=needs assistance^ORu_status=mia^EQ<item endquery="false" field="u_emergency.active" goto="false" newquery="false" operator="=" or="false" value="true"/>
+            <item endquery="false" field="u_status" goto="false" newquery="false" operator="=" or="false" value="needs assistance"/>
+            <item endquery="false" field="u_status" goto="false" newquery="false" operator="=" or="true" value="mia"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </conditions>
+        <description/>
+        <global>true</global>
+        <inherit>false</inherit>
+        <isolate_script>true</isolate_script>
+        <model_id/>
+        <model_table/>
+        <on_load>true</on_load>
+        <order>100</order>
+        <reverse_if_false>true</reverse_if_false>
+        <run_scripts>false</run_scripts>
+        <script_false><![CDATA[function onCondition() {
+
+}]]></script_false>
+        <script_true><![CDATA[function onCondition() {
+
+}]]></script_true>
+        <set_values/>
+        <short_description>Geolocation for Rescues</short_description>
+        <sys_class_name>sys_ui_policy</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-10-09 21:03:54</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>9ce0b72d4f4d2300460647f18110c773</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Geolocation for Rescues</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Business Continuity" source="x_260782_bc">3f01e2374f602300460647f18110c7bf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Business Continuity">3f01e2374f602300460647f18110c7bf</sys_scope>
+        <sys_update_name>sys_ui_policy_9ce0b72d4f4d2300460647f18110c773</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-10-09 21:21:45</sys_updated_on>
+        <table>x_260782_bc_affected_individuals</table>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_ui_policy>
+</record_update>
