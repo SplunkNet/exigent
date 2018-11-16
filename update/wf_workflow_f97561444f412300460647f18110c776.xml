@@ -50,16 +50,16 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>f97561444f412300460647f18110c776</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>Individual Safety</sys_name>
         <sys_overrides/>
         <sys_package display_value="Business Continuity" source="x_260782_bc">3f01e2374f602300460647f18110c7bf</sys_package>
         <sys_policy/>
         <sys_scope display_value="Business Continuity">3f01e2374f602300460647f18110c7bf</sys_scope>
         <sys_update_name>wf_workflow_f97561444f412300460647f18110c776</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-10-04 19:02:15</sys_updated_on>
-        <table>x_260782_bc_affected_individuals</table>
+        <sys_updated_by>admin2</sys_updated_by>
+        <sys_updated_on>2018-11-16 17:51:31</sys_updated_on>
+        <table>x_260782_bc_afi</table>
         <template>false</template>
         <vars/>
     </wf_workflow>

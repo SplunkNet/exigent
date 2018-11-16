@@ -4,13 +4,13 @@
             <element>99b4cc734f706300460647f18110c7e2</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-11-08 17:13:07</sys_created_on>
-            <sys_id>e02c159f4fa1a300460647f18110c772</sys_id>
+            <sys_created_on>2018-11-16 17:59:48</sys_created_on>
+            <sys_id>4683beb14ff92300460647f18110c76c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Location" display_value="Location" name="x_260782_bc_emergencies" sys_domain="global" view="Default view">bfa7006d4f302300460647f18110c71d</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-11-08 17:13:07</sys_updated_on>
+            <sys_updated_on>2018-11-16 17:59:48</sys_updated_on>
             <sys_user/>
             <type>chart</type>
         </sys_ui_element>
@@ -18,13 +18,13 @@
             <element>u_affected_location</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-11-08 17:13:07</sys_created_on>
-            <sys_id>642c159f4fa1a300460647f18110c772</sys_id>
+            <sys_created_on>2018-11-16 17:59:48</sys_created_on>
+            <sys_id>c683beb14ff92300460647f18110c76c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Location" display_value="Location" name="x_260782_bc_emergencies" sys_domain="global" view="Default view">bfa7006d4f302300460647f18110c71d</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-11-08 17:13:07</sys_updated_on>
+            <sys_updated_on>2018-11-16 17:59:48</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
