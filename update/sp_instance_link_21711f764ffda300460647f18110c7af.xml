@@ -4,7 +4,7 @@
         <class_name>iconpage</class_name>
         <color>default</color>
         <css/>
-        <glyph>user</glyph>
+        <glyph>sun-o</glyph>
         <id/>
         <kb_article/>
         <kb_category/>
@@ -13,32 +13,32 @@
         <roles/>
         <sc_cat_item/>
         <sc_category/>
-        <short_description>View my profile, tasks &amp; approvals</short_description>
+        <short_description>Check today's weather</short_description>
         <size>md</size>
-        <sp_column display_value="3">00c432594f212300460647f18110c71d</sp_column>
-        <sp_page display_value="disaster_recovery_user_page">e5bd65a74f41a300460647f18110c7cd</sp_page>
+        <sp_column display_value="4">c4c432594f212300460647f18110c71e</sp_column>
+        <sp_page/>
         <sp_widget display_value="Icon Link">3caa67afcb13020000f8d856634c9c2e</sp_widget>
         <sys_class_name>sp_instance_link</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-11-02 18:33:38</sys_created_on>
-        <sys_id>dd05f2594f212300460647f18110c748</sys_id>
-        <sys_mod_count>4</sys_mod_count>
-        <sys_name>My Profile</sys_name>
+        <sys_created_on>2018-11-19 22:44:28</sys_created_on>
+        <sys_id>21711f764ffda300460647f18110c7af</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Weather</sys_name>
         <sys_package display_value="Business Continuity" source="x_260782_bc">3f01e2374f602300460647f18110c7bf</sys_package>
         <sys_policy/>
         <sys_scope display_value="Business Continuity">3f01e2374f602300460647f18110c7bf</sys_scope>
-        <sys_update_name>sp_instance_link_dd05f2594f212300460647f18110c748</sys_update_name>
+        <sys_update_name>sp_instance_link_21711f764ffda300460647f18110c7af</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-11-16 21:35:45</sys_updated_on>
-        <title>My Profile</title>
-        <type>page</type>
-        <url/>
+        <sys_updated_on>2018-11-20 17:49:14</sys_updated_on>
+        <title>Weather</title>
+        <type>url</type>
+        <url>https://www.accuweather.com/</url>
         <widget_parameters><![CDATA[{
 	"link_template": {
-		"value": "Top Icon",
-		"displayValue": "Top Icon"
+		"value": "",
+		"displayValue": "-- None --"
 	}
 }]]></widget_parameters>
     </sp_instance_link>
-    <sys_translated_text action="delete_multiple" query="documentkey=dd05f2594f212300460647f18110c748"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=21711f764ffda300460647f18110c7af"/>
 </record_update>

@@ -1,27 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element attributes="live_feed=true" audit="true" label="Affected Individual" max_length="40" name="x_260782_bc_affected_individuals" type="collection">
+    <element attributes="live_feed=true" audit="true" max_length="40" name="x_260782_bc_affected_individuals" type="collection">
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
         <element label="Emergency" mandatory="true" max_length="32" name="u_emergency" reference="x_260782_bc_emergencies" type="reference"/>
         <element label="emergency.state" max_length="32" name="u_emergencystate" reference="x_260782_bc_emergencies" type="reference"/>
         <element label="Name" mandatory="true" max_length="32" name="u_name" reference="sys_user" type="reference"/>
         <element attributes="edge_encryption_enabled=true" label="Notes" max_length="4000" name="u_notes" type="journal"/>
         <element attributes="edge_encryption_enabled=true" choice="3" default="awaiting status" label="Status" mandatory="true" max_length="40" name="u_status" type="string">
-            <choice>
-                <element inactive_on_update="false" label="Safe" sequence="0" value="safe"/>
-                <element inactive_on_update="false" label="Needs Assistance" sequence="1" value="needs assistance"/>
-                <element inactive_on_update="false" label="MIA" sequence="2" value="mia"/>
-                <element inactive_on_update="false" label="Deceased" sequence="3" value="deceased"/>
-                <element inactive_on_update="false" label="Awaiting Status" sequence="4" value="awaiting status"/>
-            </choice>
+            <choice/>
         </element>
-        <index name="index">
-            <element name="u_emergencystate"/>
-        </index>
-        <index name="index2">
-            <element name="u_name"/>
-        </index>
-        <index name="index3">
-            <element name="u_emergency"/>
-        </index>
     </element>
 </database>

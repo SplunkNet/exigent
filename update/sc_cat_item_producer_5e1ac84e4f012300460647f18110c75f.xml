@@ -41,7 +41,7 @@
         <recurring_frequency/>
         <recurring_price>0</recurring_price>
         <redirect_url>generated_record</redirect_url>
-        <roles/>
+        <roles>snc_internal</roles>
         <sc_catalogs>1c3a1c8e4f412300460647f18110c70a</sc_catalogs>
         <sc_ic_item_staging/>
         <sc_ic_version/>
@@ -56,14 +56,14 @@ current.priority='1';]]></script>
         <sys_created_by>admin2</sys_created_by>
         <sys_created_on>2018-10-10 18:09:24</sys_created_on>
         <sys_id>5e1ac84e4f012300460647f18110c75f</sys_id>
-        <sys_mod_count>11</sys_mod_count>
+        <sys_mod_count>12</sys_mod_count>
         <sys_name>Create Fire Emergency</sys_name>
         <sys_package display_value="Business Continuity" source="x_260782_bc">3f01e2374f602300460647f18110c7bf</sys_package>
         <sys_policy/>
         <sys_scope display_value="Business Continuity">3f01e2374f602300460647f18110c7bf</sys_scope>
         <sys_update_name>sc_cat_item_producer_5e1ac84e4f012300460647f18110c75f</sys_update_name>
-        <sys_updated_by>admin2</sys_updated_by>
-        <sys_updated_on>2018-10-19 18:26:26</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2018-11-26 21:25:51</sys_updated_on>
         <table_name>x_260782_bc_emergencies</table_name>
         <template/>
         <type>item</type>
