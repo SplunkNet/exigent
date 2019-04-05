@@ -15,13 +15,13 @@
         <condition/>
         <description/>
         <execute_function>false</execute_function>
-        <filter_condition table="x_260782_bc_emergencies">u_affected_locationISNOTEMPTY^u_evacuation=true^EQ<item endquery="false" field="u_affected_location" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value=""/>
-            <item endquery="false" field="u_evacuation" goto="false" newquery="false" operator="=" or="false" value="true"/>
+        <filter_condition table="x_260782_bc_emergencies">u_affected_locationISNOTEMPTY^approval=approved^EQ<item endquery="false" field="u_affected_location" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value=""/>
+            <item endquery="false" field="approval" goto="false" newquery="false" operator="=" or="false" value="approved"/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </filter_condition>
         <is_rest>false</is_rest>
         <message><![CDATA[<p>It&#39;s running</p>]]></message>
-        <name>autpopAffectedIndividuals</name>
+        <name>Exigent - Autopopulate AFI</name>
         <order>100</order>
         <priority>100</priority>
         <rest_method/>
@@ -31,9 +31,10 @@
         <rest_variables/>
         <role_conditions/>
         <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
-	// Add your code here
+	// create array of affected users
 	var alArray=current.u_affected_location.toString().split(",");
 	for(var i=0;i<alArray.length;i++){
+		//query user table for matching locations
 		var gr = new GlideRecord('sys_user');
 		gr.addQuery('location', alArray[i]);
 		gr.query(); // Issue the query to the database to get relevant records
@@ -45,13 +46,17 @@
 			gr2.addQuery('u_name',gr.getValue('sys_id'));
 			gr2.addQuery('u_emergency',current.getValue('sys_id'));
 			gr2.query();
-			//will duplicate if emergency is different
-			if (!checkDuplicate(gr.getValue('name'),gr2)) {
+			
+			//allow duplication of user if emergency is different
+			if (!checkDuplicate(gr.getValue('name'),gr2)) {  
+				//create record and assign values
 				gr2.initialize();
 				gr2.u_name = gr.getValue('name');
 				gr2.u_emergency=current.getValue('sys_id');
 				gr2.insert();
 			}
+			
+			
 		}
 	}
 	function checkDuplicate(id,gr2) {
@@ -67,15 +72,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>d539fed74f302300460647f18110c752</sys_id>
-        <sys_mod_count>72</sys_mod_count>
-        <sys_name>autpopAffectedIndividuals</sys_name>
+        <sys_mod_count>93</sys_mod_count>
+        <sys_name>Exigent - Autopopulate AFI</sys_name>
         <sys_overrides/>
-        <sys_package display_value="Business Continuity" source="x_260782_bc">3f01e2374f602300460647f18110c7bf</sys_package>
+        <sys_package display_value="Exigent" source="x_260782_bc">3f01e2374f602300460647f18110c7bf</sys_package>
         <sys_policy/>
-        <sys_scope display_value="Business Continuity">3f01e2374f602300460647f18110c7bf</sys_scope>
+        <sys_scope display_value="Exigent">3f01e2374f602300460647f18110c7bf</sys_scope>
         <sys_update_name>sys_script_d539fed74f302300460647f18110c752</sys_update_name>
-        <sys_updated_by>admin2</sys_updated_by>
-        <sys_updated_on>2018-11-16 17:53:17</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-12-05 17:49:57</sys_updated_on>
         <template/>
         <when>before</when>
     </sys_script>

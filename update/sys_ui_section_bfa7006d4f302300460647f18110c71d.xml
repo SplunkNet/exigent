@@ -3,28 +3,28 @@
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>99b4cc734f706300460647f18110c7e2</element>
             <position>0</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-11-16 17:59:48</sys_created_on>
-            <sys_id>4683beb14ff92300460647f18110c76c</sys_id>
+            <sys_created_by>admin2</sys_created_by>
+            <sys_created_on>2018-12-04 16:40:38</sys_created_on>
+            <sys_id>460ec32b4f8a2300460647f18110c726</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Location" display_value="Location" name="x_260782_bc_emergencies" sys_domain="global" view="Default view">bfa7006d4f302300460647f18110c71d</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-11-16 17:59:48</sys_updated_on>
+            <sys_updated_by>admin2</sys_updated_by>
+            <sys_updated_on>2018-12-04 16:40:38</sys_updated_on>
             <sys_user/>
             <type>chart</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_affected_location</element>
             <position>1</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-11-16 17:59:48</sys_created_on>
-            <sys_id>c683beb14ff92300460647f18110c76c</sys_id>
+            <sys_created_by>admin2</sys_created_by>
+            <sys_created_on>2018-12-04 16:40:38</sys_created_on>
+            <sys_id>c60ec32b4f8a2300460647f18110c726</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Location" display_value="Location" name="x_260782_bc_emergencies" sys_domain="global" view="Default view">bfa7006d4f302300460647f18110c71d</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-11-16 17:59:48</sys_updated_on>
+            <sys_updated_by>admin2</sys_updated_by>
+            <sys_updated_on>2018-12-04 16:40:38</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -57,9 +57,9 @@
             <sys_mod_count>0</sys_mod_count>
             <sys_name>Location</sys_name>
             <sys_overrides/>
-            <sys_package display_value="Business Continuity" source="x_260782_bc">3f01e2374f602300460647f18110c7bf</sys_package>
+            <sys_package display_value="Exigent" source="x_260782_bc">3f01e2374f602300460647f18110c7bf</sys_package>
             <sys_policy/>
-            <sys_scope display_value="Business Continuity">3f01e2374f602300460647f18110c7bf</sys_scope>
+            <sys_scope display_value="Exigent">3f01e2374f602300460647f18110c7bf</sys_scope>
             <sys_update_name>sys_ui_section_bfa7006d4f302300460647f18110c71d</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2018-09-26 17:47:42</sys_updated_on>

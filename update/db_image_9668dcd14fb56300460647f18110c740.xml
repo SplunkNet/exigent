@@ -13,9 +13,9 @@
         <sys_id>9668dcd14fb56300460647f18110c740</sys_id>
         <sys_mod_count>2</sys_mod_count>
         <sys_name>bc_exit.jpg</sys_name>
-        <sys_package display_value="Business Continuity" source="x_260782_bc">3f01e2374f602300460647f18110c7bf</sys_package>
+        <sys_package display_value="Exigent" source="x_260782_bc">3f01e2374f602300460647f18110c7bf</sys_package>
         <sys_policy/>
-        <sys_scope display_value="Business Continuity">3f01e2374f602300460647f18110c7bf</sys_scope>
+        <sys_scope display_value="Exigent">3f01e2374f602300460647f18110c7bf</sys_scope>
         <sys_update_name>db_image_9668dcd14fb56300460647f18110c740</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2018-11-14 17:26:03</sys_updated_on>

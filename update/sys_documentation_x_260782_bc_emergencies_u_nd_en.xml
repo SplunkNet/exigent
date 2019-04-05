@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_nd" label="Natural Disaster" language="en" table="x_260782_bc_emergencies">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_nd</element>
+            <help/>
+            <hint/>
+            <label>Natural Disaster</label>
+            <language>en</language>
+            <name>x_260782_bc_emergencies</name>
+            <plural>Natural Disasters</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin2</sys_created_by>
+            <sys_created_on>2018-12-04 16:38:45</sys_created_on>
+            <sys_id>2e9d0fe74f8a2300460647f18110c7df</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Natural Disaster</sys_name>
+            <sys_package display_value="Exigent" source="x_260782_bc">3f01e2374f602300460647f18110c7bf</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Exigent">3f01e2374f602300460647f18110c7bf</sys_scope>
+            <sys_update_name>sys_documentation_x_260782_bc_emergencies_u_nd_en</sys_update_name>
+            <sys_updated_by>admin2</sys_updated_by>
+            <sys_updated_on>2018-12-04 16:38:45</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

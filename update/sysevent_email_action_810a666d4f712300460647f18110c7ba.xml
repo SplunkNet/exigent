@@ -35,7 +35,10 @@
         <item_table/>
         <mandatory>false</mandatory>
         <message/>
-        <message_html><![CDATA[<p>${mailto:mailto.safe}</p>
+        <message_html><![CDATA[<p>Hello,</p>
+<p>There is an emergency in your area. Please evacuate and when you are safe please select approval in this email to mark yourself as such. If you are not safe please select reject, or dial 911. If you select no option we will contact you after&nbsp;24 hours to check on your status.</p>
+<p>&nbsp;</p>
+<p>${mailto:mailto.safe}</p>
 <p>${mailto:mailto.unsafe}</p>
 <p>Click here to view your safety status: ${URI}</p>]]></message_html>
         <message_list/>
@@ -59,15 +62,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>810a666d4f712300460647f18110c7ba</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>12</sys_mod_count>
         <sys_name>x_260782_bc_afi.approval.inserted</sys_name>
         <sys_overrides/>
-        <sys_package display_value="Business Continuity" source="x_260782_bc">3f01e2374f602300460647f18110c7bf</sys_package>
+        <sys_package display_value="Exigent" source="x_260782_bc">3f01e2374f602300460647f18110c7bf</sys_package>
         <sys_policy/>
-        <sys_scope display_value="Business Continuity">3f01e2374f602300460647f18110c7bf</sys_scope>
+        <sys_scope display_value="Exigent">3f01e2374f602300460647f18110c7bf</sys_scope>
         <sys_update_name>sysevent_email_action_810a666d4f712300460647f18110c7ba</sys_update_name>
         <sys_updated_by>admin2</sys_updated_by>
-        <sys_updated_on>2018-11-16 19:07:22</sys_updated_on>
+        <sys_updated_on>2018-11-30 19:46:13</sys_updated_on>
         <sys_version>2</sys_version>
         <template/>
         <type>email</type>

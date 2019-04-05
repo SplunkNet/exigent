@@ -17,9 +17,9 @@
         <sys_id>a5b896e44f312300460647f18110c7a3</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>mark_as_safe</sys_name>
-        <sys_package display_value="Business Continuity" source="x_260782_bc">3f01e2374f602300460647f18110c7bf</sys_package>
+        <sys_package display_value="Exigent" source="x_260782_bc">3f01e2374f602300460647f18110c7bf</sys_package>
         <sys_policy/>
-        <sys_scope display_value="Business Continuity">3f01e2374f602300460647f18110c7bf</sys_scope>
+        <sys_scope display_value="Exigent">3f01e2374f602300460647f18110c7bf</sys_scope>
         <sys_update_name>sysevent_email_template_a5b896e44f312300460647f18110c7a3</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2018-11-12 19:15:55</sys_updated_on>

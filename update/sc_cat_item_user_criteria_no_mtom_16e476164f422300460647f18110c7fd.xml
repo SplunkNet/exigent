@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_user_criteria_no_mtom">
+    <sc_cat_item_user_criteria_no_mtom action="INSERT_OR_UPDATE">
+        <sc_cat_item display_value="Create Flood Emergeny ">5beae29e4f022300460647f18110c7b6</sc_cat_item>
+        <sys_class_name>sc_cat_item_user_criteria_no_mtom</sys_class_name>
+        <sys_created_by>steven.salter</sys_created_by>
+        <sys_created_on>2018-11-30 17:38:27</sys_created_on>
+        <sys_id>16e476164f422300460647f18110c7fd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Create Flood Emergeny .SNC External</sys_name>
+        <sys_package display_value="Exigent" source="x_260782_bc">3f01e2374f602300460647f18110c7bf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Exigent">3f01e2374f602300460647f18110c7bf</sys_scope>
+        <sys_update_name>sc_cat_item_user_criteria_no_mtom_16e476164f422300460647f18110c7fd</sys_update_name>
+        <sys_updated_by>steven.salter</sys_updated_by>
+        <sys_updated_on>2018-11-30 17:38:27</sys_updated_on>
+        <user_criteria display_value="SNC External">64a247c14fc22300460647f18110c705</user_criteria>
+    </sc_cat_item_user_criteria_no_mtom>
+</record_update>

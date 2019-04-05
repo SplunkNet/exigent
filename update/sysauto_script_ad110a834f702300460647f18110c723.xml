@@ -10,7 +10,7 @@
         <run_dayofweek>1</run_dayofweek>
         <run_period/>
         <run_start>2018-10-01 18:29:00</run_start>
-        <run_time>1970-01-01 18:02:00</run_time>
+        <run_time>1970-01-01 19:42:00</run_time>
         <run_type>daily</run_type>
         <script><![CDATA[//API Call
 var r = new sn_ws.RESTMessageV2('Sigimera', 'Crises Green GET');
@@ -30,6 +30,7 @@ for(var i=0;i<obj.length;i++){
 		gr.short_description = obj[i].dc_title;
 		gr.description = obj[i].dc_description;
 		gr.u_more_info = obj[i].rdfs_seeAlso;
+		gr.u_nd=true;
 		for(var o=0;o<obj[i].gn_parentCountry.length;o++){
 		gr.u_country_location+=obj[i].gn_parentCountry[o]+" ";
 		}
@@ -51,14 +52,14 @@ function checkDuplicate(id,gr) {
         <sys_created_by>admin2</sys_created_by>
         <sys_created_on>2018-10-01 18:35:33</sys_created_on>
         <sys_id>ad110a834f702300460647f18110c723</sys_id>
-        <sys_mod_count>59</sys_mod_count>
+        <sys_mod_count>63</sys_mod_count>
         <sys_name>Create New Green Emergency Ticket</sys_name>
-        <sys_package display_value="Business Continuity" source="x_260782_bc">3f01e2374f602300460647f18110c7bf</sys_package>
+        <sys_package display_value="Exigent" source="x_260782_bc">3f01e2374f602300460647f18110c7bf</sys_package>
         <sys_policy/>
-        <sys_scope display_value="Business Continuity">3f01e2374f602300460647f18110c7bf</sys_scope>
+        <sys_scope display_value="Exigent">3f01e2374f602300460647f18110c7bf</sys_scope>
         <sys_update_name>sysauto_script_ad110a834f702300460647f18110c723</sys_update_name>
         <sys_updated_by>admin2</sys_updated_by>
-        <sys_updated_on>2018-10-15 20:40:50</sys_updated_on>
+        <sys_updated_on>2018-12-05 17:43:42</sys_updated_on>
         <upgrade_safe>false</upgrade_safe>
     </sysauto_script>
 </record_update>

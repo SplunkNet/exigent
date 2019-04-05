@@ -2,7 +2,7 @@
     <item_option_new action="INSERT_OR_UPDATE">
         <active>true</active>
         <attributes/>
-        <cat_item display_value="Create Mysterious Person/Package Emergency">d9d1418a4fc12300460647f18110c7ea</cat_item>
+        <cat_item display_value="Create Suspicious Person/Package Emergency">d9d1418a4fc12300460647f18110c7ea</cat_item>
         <category/>
         <choice_direction>down</choice_direction>
         <choice_field/>
@@ -61,9 +61,9 @@
         <sys_id>4df7818e4fc12300460647f18110c78b</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>If applicable, please provide details.</sys_name>
-        <sys_package display_value="Business Continuity" source="x_260782_bc">3f01e2374f602300460647f18110c7bf</sys_package>
+        <sys_package display_value="Exigent" source="x_260782_bc">3f01e2374f602300460647f18110c7bf</sys_package>
         <sys_policy/>
-        <sys_scope display_value="Business Continuity">3f01e2374f602300460647f18110c7bf</sys_scope>
+        <sys_scope display_value="Exigent">3f01e2374f602300460647f18110c7bf</sys_scope>
         <sys_update_name>item_option_new_4df7818e4fc12300460647f18110c78b</sys_update_name>
         <sys_updated_by>admin2</sys_updated_by>
         <sys_updated_on>2018-10-10 22:02:36</sys_updated_on>

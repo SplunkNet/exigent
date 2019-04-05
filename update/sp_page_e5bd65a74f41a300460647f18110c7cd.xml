@@ -3,6 +3,32 @@
         <category>custom</category>
         <css>.search {
   background-image: url("paper.gif");
+}
+
+.search-container{
+  margin-top: 75px;
+  margin-bottom: 75px;
+  background-color: rgba(0,0,0,0.3);
+}
+
+.header-container {
+  padding: 0;
+}
+
+.th-title {
+  color: #f71111;
+}
+
+.header {
+  padding: 0;
+}
+
+.top-group {
+  margin-top: 80px;
+}
+
+.v200fbd96cb20020000f8d856634c9ca1 .sp-tagline-color {
+  color: #FFF;
 }</css>
         <draft>false</draft>
         <dynamic_title_structure/>
@@ -15,14 +41,14 @@
         <sys_created_by>admin2</sys_created_by>
         <sys_created_on>2018-10-15 16:37:00</sys_created_on>
         <sys_id>e5bd65a74f41a300460647f18110c7cd</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_name>disaster_recovery_user_page</sys_name>
-        <sys_package display_value="Business Continuity" source="x_260782_bc">3f01e2374f602300460647f18110c7bf</sys_package>
+        <sys_package display_value="Exigent" source="x_260782_bc">3f01e2374f602300460647f18110c7bf</sys_package>
         <sys_policy/>
-        <sys_scope display_value="Business Continuity">3f01e2374f602300460647f18110c7bf</sys_scope>
+        <sys_scope display_value="Exigent">3f01e2374f602300460647f18110c7bf</sys_scope>
         <sys_update_name>sp_page_e5bd65a74f41a300460647f18110c7cd</sys_update_name>
-        <sys_updated_by>admin2</sys_updated_by>
-        <sys_updated_on>2018-10-15 16:45:54</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-12-03 21:35:13</sys_updated_on>
         <title>Disaster Recovery User Page</title>
     </sp_page>
     <sys_translated_text action="delete_multiple" query="documentkey=e5bd65a74f41a300460647f18110c7cd"/>

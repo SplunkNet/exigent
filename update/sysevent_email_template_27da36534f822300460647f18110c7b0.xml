@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysevent_email_template">
+    <sysevent_email_template action="INSERT_OR_UPDATE">
+        <collection>x_260782_bc_afi</collection>
+        <email_layout/>
+        <message/>
+        <message_html><![CDATA[<p>${u_emcn.u_emcn_name},</p>
+<p>${u_name} has been marked as needing assistance in an active emergency at the workplace. Authorities have been contacted. A security desk agent will be in contact with you with more updates.&nbsp;</p>
+<p>You are receiving this message because you have been listed as an emergency contact for ${u_emcn}.&nbsp;</p>
+<p>Emergency Short description: ${u_emergency.short_description}</p>
+<p>Emergency Affected Location/s: ${u_emergency.u_affected_location}</p>
+<p>Emergency Description: ${u_emergency.description}</p>]]></message_html>
+        <message_list/>
+        <message_text><![CDATA[${u_eme_contact.u_con_name},
+
+You are receiving this message because you have been listed as an emergency contact for ${u_eme_contact.u_name}. ${u_name.first_name} has been identified as an affected individual in an active emergency incident. Please refer below for more details:
+
+Emergency Short description: ${u_emergency.short_description}
+
+Emergency Affected Location: ${u_emergency.u_affected_location}
+
+Emergency Description: ${u_emergency.description}]]></message_text>
+        <name>Emergency Contact Incident Alert</name>
+        <sms_alternate/>
+        <subject>Notification of emergency regarding ${u_emcn}</subject>
+        <sys_class_name>sysevent_email_template</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-12-03 20:49:35</sys_created_on>
+        <sys_id>27da36534f822300460647f18110c7b0</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Emergency Contact Incident Alert</sys_name>
+        <sys_package display_value="Exigent" source="x_260782_bc">3f01e2374f602300460647f18110c7bf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Exigent">3f01e2374f602300460647f18110c7bf</sys_scope>
+        <sys_update_name>sysevent_email_template_27da36534f822300460647f18110c7b0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-12-06 22:56:20</sys_updated_on>
+        <sys_version>2</sys_version>
+    </sysevent_email_template>
+</record_update>

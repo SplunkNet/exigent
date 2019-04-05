@@ -10,7 +10,7 @@
         <glyph>flag</glyph>
         <id/>
         <maximum_entries>5</maximum_entries>
-        <order>1</order>
+        <order>2</order>
         <order_by>number</order_by>
         <order_direction>desc</order_direction>
         <roles/>
@@ -23,14 +23,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-10-11 22:52:34</sys_created_on>
         <sys_id>485d529e4fcd2300460647f18110c710</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>13</sys_mod_count>
         <sys_name>Emergencies</sys_name>
-        <sys_package display_value="Business Continuity" source="x_260782_bc">3f01e2374f602300460647f18110c7bf</sys_package>
+        <sys_package display_value="Exigent" source="x_260782_bc">3f01e2374f602300460647f18110c7bf</sys_package>
         <sys_policy/>
-        <sys_scope display_value="Business Continuity">3f01e2374f602300460647f18110c7bf</sys_scope>
+        <sys_scope display_value="Exigent">3f01e2374f602300460647f18110c7bf</sys_scope>
         <sys_update_name>sp_instance_table_485d529e4fcd2300460647f18110c710</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-10-19 17:50:41</sys_updated_on>
+        <sys_updated_by>admin2</sys_updated_by>
+        <sys_updated_on>2018-12-03 18:01:52</sys_updated_on>
         <table>x_260782_bc_emergencies</table>
         <title>Emergencies</title>
         <url/>

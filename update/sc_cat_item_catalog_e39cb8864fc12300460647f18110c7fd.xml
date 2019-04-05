@@ -8,9 +8,9 @@
         <sys_id>e39cb8864fc12300460647f18110c7fd</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Emergencies.Create Active Shooter Emergency</sys_name>
-        <sys_package display_value="Business Continuity" source="x_260782_bc">3f01e2374f602300460647f18110c7bf</sys_package>
+        <sys_package display_value="Exigent" source="x_260782_bc">3f01e2374f602300460647f18110c7bf</sys_package>
         <sys_policy/>
-        <sys_scope display_value="Business Continuity">3f01e2374f602300460647f18110c7bf</sys_scope>
+        <sys_scope display_value="Exigent">3f01e2374f602300460647f18110c7bf</sys_scope>
         <sys_update_name>sc_cat_item_catalog_e39cb8864fc12300460647f18110c7fd</sys_update_name>
         <sys_updated_by>admin2</sys_updated_by>
         <sys_updated_on>2018-10-10 21:11:38</sys_updated_on>

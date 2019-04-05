@@ -4,7 +4,7 @@
         <category display_value="Custom Applications">e0355b31ef303000a61d5a3615c0fb78</category>
         <description/>
         <device_type>browser</device_type>
-        <hint/>
+        <hint>Disaster Recovery</hint>
         <name/>
         <order>100</order>
         <roles>snc_internal</roles>
@@ -14,16 +14,16 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>c2b3c4a94f302300460647f18110c7b1</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_name>Disaster Recovery</sys_name>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Exigent</sys_name>
         <sys_overrides/>
-        <sys_package display_value="Business Continuity" source="x_260782_bc">3f01e2374f602300460647f18110c7bf</sys_package>
+        <sys_package display_value="Exigent" source="x_260782_bc">3f01e2374f602300460647f18110c7bf</sys_package>
         <sys_policy/>
-        <sys_scope display_value="Business Continuity">3f01e2374f602300460647f18110c7bf</sys_scope>
+        <sys_scope display_value="Exigent">3f01e2374f602300460647f18110c7bf</sys_scope>
         <sys_update_name>sys_app_application_c2b3c4a94f302300460647f18110c7b1</sys_update_name>
-        <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2018-11-26 21:25:45</sys_updated_on>
-        <title>Disaster Recovery</title>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-11-28 22:17:36</sys_updated_on>
+        <title>Exigent</title>
         <view_name/>
     </sys_app_application>
 </record_update>

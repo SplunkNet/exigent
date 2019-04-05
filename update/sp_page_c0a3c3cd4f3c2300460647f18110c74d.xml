@@ -55,12 +55,12 @@
   color: #FFF;
 }
 
-.th-title {
+.th-title .v200fbd96cb20020000f8d856634c9ca1 .sp-tagline-color{
   color: #f71111;
 }</css>
         <draft>false</draft>
         <dynamic_title_structure/>
-        <id>bc_disaster</id>
+        <id>exigent</id>
         <internal>false</internal>
         <public>false</public>
         <roles/>
@@ -69,15 +69,15 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-09-25 18:12:37</sys_created_on>
         <sys_id>c0a3c3cd4f3c2300460647f18110c74d</sys_id>
-        <sys_mod_count>78</sys_mod_count>
-        <sys_name>bc_disaster</sys_name>
-        <sys_package display_value="Business Continuity" source="x_260782_bc">3f01e2374f602300460647f18110c7bf</sys_package>
+        <sys_mod_count>81</sys_mod_count>
+        <sys_name>exigent</sys_name>
+        <sys_package display_value="Exigent" source="x_260782_bc">3f01e2374f602300460647f18110c7bf</sys_package>
         <sys_policy/>
-        <sys_scope display_value="Business Continuity">3f01e2374f602300460647f18110c7bf</sys_scope>
+        <sys_scope display_value="Exigent">3f01e2374f602300460647f18110c7bf</sys_scope>
         <sys_update_name>sp_page_c0a3c3cd4f3c2300460647f18110c74d</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-11-16 18:27:13</sys_updated_on>
-        <title>Disaster Recovery</title>
+        <sys_updated_on>2018-12-03 21:36:35</sys_updated_on>
+        <title>Exigent Home</title>
     </sp_page>
     <sys_translated_text action="delete_multiple" query="documentkey=c0a3c3cd4f3c2300460647f18110c74d"/>
 </record_update>

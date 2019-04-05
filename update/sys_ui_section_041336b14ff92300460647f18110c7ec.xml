@@ -3,14 +3,14 @@
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>M2M.x_260782_bc_emergencies.sysapproval_approver.sysapproval</element>
             <position>0</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-11-16 17:59:48</sys_created_on>
-            <sys_id>da83beb14ff92300460647f18110c772</sys_id>
+            <sys_created_by>admin2</sys_created_by>
+            <sys_created_on>2018-12-04 16:40:38</sys_created_on>
+            <sys_id>060ec32b4f8a2300460647f18110c72c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Approvers" display_value="Approvers" name="x_260782_bc_emergencies" sys_domain="global" view="Default view">041336b14ff92300460647f18110c7ec</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-11-16 17:59:48</sys_updated_on>
+            <sys_updated_by>admin2</sys_updated_by>
+            <sys_updated_on>2018-12-04 16:40:38</sys_updated_on>
             <sys_user/>
             <type>list</type>
         </sys_ui_element>
@@ -28,9 +28,9 @@
             <sys_mod_count>0</sys_mod_count>
             <sys_name>Approvers</sys_name>
             <sys_overrides/>
-            <sys_package display_value="Business Continuity" source="x_260782_bc">3f01e2374f602300460647f18110c7bf</sys_package>
+            <sys_package display_value="Exigent" source="x_260782_bc">3f01e2374f602300460647f18110c7bf</sys_package>
             <sys_policy/>
-            <sys_scope display_value="Business Continuity">3f01e2374f602300460647f18110c7bf</sys_scope>
+            <sys_scope display_value="Exigent">3f01e2374f602300460647f18110c7bf</sys_scope>
             <sys_update_name>sys_ui_section_041336b14ff92300460647f18110c7ec</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2018-11-16 17:57:44</sys_updated_on>

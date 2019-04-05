@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_documentation element="u_ndid" label="Natural Disaster ID" language="en" table="x_260782_bc_emergencies">
+    <sys_documentation element="u_ndid" label="Disaster ID" language="en" table="x_260782_bc_emergencies">
         <sys_documentation action="INSERT_OR_UPDATE">
             <element>u_ndid</element>
             <help/>
             <hint/>
-            <label>Natural Disaster ID</label>
+            <label>Disaster ID</label>
             <language>en</language>
             <name>x_260782_bc_emergencies</name>
-            <plural>Natural Disaster IDs</plural>
+            <plural>Disaster IDs</plural>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>admin2</sys_created_by>
             <sys_created_on>2018-10-02 21:40:39</sys_created_on>
             <sys_id>b286339f4ff42300460647f18110c781</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_name>Natural Disaster ID</sys_name>
-            <sys_package display_value="Business Continuity" source="x_260782_bc">3f01e2374f602300460647f18110c7bf</sys_package>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>Disaster ID</sys_name>
+            <sys_package display_value="Exigent" source="x_260782_bc">3f01e2374f602300460647f18110c7bf</sys_package>
             <sys_policy/>
-            <sys_scope display_value="Business Continuity">3f01e2374f602300460647f18110c7bf</sys_scope>
+            <sys_scope display_value="Exigent">3f01e2374f602300460647f18110c7bf</sys_scope>
             <sys_update_name>sys_documentation_x_260782_bc_emergencies_u_ndid_en</sys_update_name>
             <sys_updated_by>admin2</sys_updated_by>
-            <sys_updated_on>2018-10-02 21:40:39</sys_updated_on>
+            <sys_updated_on>2018-12-04 16:40:37</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>

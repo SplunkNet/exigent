@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element attributes="live_feed=true" audit="true" extends="task" label="Emergencies" max_length="40" name="x_260782_bc_emergencies" sizeclass="148" type="collection">
+    <element attributes="live_feed=true" audit="true" extends="task" label="Emergencies" max_length="40" name="x_260782_bc_emergencies" sizeclass="337" type="collection">
         <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="Affected Individuals" max_length="1024" name="u_affected_individuals" reference="x_260782_bc_affected_individuals" type="glide_list"/>
         <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="Affected Location" max_length="1024" name="u_affected_location" reference="cmn_location" type="glide_list"/>
         <element attributes="edge_encryption_enabled=true" label="Country Location" max_length="80" name="u_country_location" type="string"/>
         <element label="Evacuation Required?" max_length="40" name="u_evacuation" type="boolean"/>
         <element attributes="edge_encryption_enabled=true" label="More Info" max_length="80" name="u_more_info" type="string"/>
-        <element attributes="edge_encryption_enabled=true" label="Natural Disaster ID" max_length="40" name="u_ndid" type="string"/>
+        <element label="Natural Disaster" max_length="40" name="u_nd" read_only="true" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Disaster ID" max_length="40" name="u_ndid" type="string"/>
     </element>
 </database>
